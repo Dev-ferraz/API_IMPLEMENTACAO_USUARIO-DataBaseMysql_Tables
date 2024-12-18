@@ -3,7 +3,7 @@
  
 #CREATE recurso
 INSERT INTO usuario_perfil_recuso (nome, chave) 
-VALUES ('Ferraz', '7786');
+VALUES ('Musk', '4200');
 #---------------------------------
  #READ curso
  describe usuario_perfil_recuso;
