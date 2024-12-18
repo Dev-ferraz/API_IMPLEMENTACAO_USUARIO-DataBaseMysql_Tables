@@ -19,3 +19,5 @@ truncate table usuario_verificador;
 #--------------------
 #Se valor situacao não for fornecido o campo recebera um valor null:
 ALTER TABLE usuario MODIFY COLUMN situacao VARCHAR(255) DEFAULT 'PENDENTE';
+#Remover o Valor Padrão
+ALTER TABLE usuario MODIFY COLUMN situacao VARCHAR(255) DEFAULT NULL;
