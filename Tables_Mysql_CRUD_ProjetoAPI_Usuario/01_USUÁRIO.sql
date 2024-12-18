@@ -3,7 +3,7 @@
 
 #CREATE usuario
 INSERT INTO usuario (nome, login, senha, email)
-VALUES ('Elon Musk', 'musk', 'Musk123', 'Elon.Musk@gmail.com','ATIVO');
+VALUES ('Elon Musk', 'musk', 'Musk420', 'Elon.Musk@gmail.com','ATIVO');
 #--------------------------------------------------------
  #READ usuario
  describe usuario;
